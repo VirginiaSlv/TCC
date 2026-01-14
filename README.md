@@ -28,14 +28,13 @@ Questionários estratégicos que fornecem contexto semântico à IA:
     * *Relatório Semanal:* Evolução pedagógica e adaptações de rotina.
 
 ### 🧠 Inteligência Artificial (Core)
-* **Análise Preditiva:** Processamento em Python utilizando modelos como *Random Forest* ou *XGBoost*.
-* **Fusão de Dados:** O modelo cruza biometria (batimentos) com gatilhos externos (sensibilidades relatadas) e o estado emocional autodeclarado.
+* **Análise Preditiva:** Processamento em Python.
+* **Fusão de Dados:** O modelo cruza batimentos com gatilhos externos (sensibilidades relatadas) e o estado emocional autodeclarado.
 * **Detecção de Gatilhos:** Identificação de padrões que antecedem crises (ex: correlação entre ruídos e taquicardia).
 
 ### 📱 Aplicativo Mobile (Flutter)
-* **Interface Adaptada:** Design limpo com pictogramas e cores suaves, focado na acessibilidade cognitiva.
+* **Interface Adaptada:** Design limpo com e cores suaves, focado na acessibilidade cognitiva.
 * **Alertas Predict:** Notificações instantâneas para professores sobre riscos iminentes de crise.
-* **Dashboards:** Visualização clara da evolução do bem-estar do aluno.
 
 ---
 
@@ -45,22 +44,20 @@ Questionários estratégicos que fornecem contexto semântico à IA:
 | :--- | :--- | :--- |
 | **Hardware** | Arduino C++ | Captura de sinais brutos dos sensores |
 | **Mobile** | Flutter (Dart) | Interface do usuário e entrada de dados |
-| **Backend** | Java (Spring Boot) | Orquestração, persistência e regras de negócio |
 | **IA Engine** | Python (Flask/FastAPI) | Processamento de Machine Learning e predições |
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Linguagens:** `Java`, `Python`, `Dart`, `C++`
-* **IA:** `Pandas`, `Scikit-learn`, `XGBoost`
-* **Sensores:** `Pulse Sensor`, `MPU6050 (Acelerômetro)`
-* **Banco de Dados:** `PostgreSQL` / `MySQL`
+* **Linguagens:** `Python`, `Dart`, `C++`
+* **IA:** `Pandas`, `Scikit-learn`
+* **Banco de Dados:** `Supbase` 
 
 ---
 
 ## 📈 Impacto Esperado
-Proporcionar aos educadores uma ferramenta de **intervenção precoce**, permitindo que o aluno receba suporte antes que o desconforto se torne uma crise severa, promovendo um ambiente escolar mais seguro, acolhedor e neurodivergente.
+Proporcionar aos educadores uma ferramenta de **intervenção precoce**, permitindo que o aluno receba suporte antes que o desconforto se torne uma crise severa, promovendo um ambiente escolar mais seguro e acolhedor.
 
 ---
 
