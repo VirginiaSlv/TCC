@@ -66,4 +66,5 @@ Proporcionar aos educadores uma ferramenta de **intervenção precoce**, permiti
 * **Virginia da Silva**
 * **Yasmin Tavares Noberto**
 
+Equipe do Projeto EDUCARE: Colégio Técnico de Campinas - Unicamp
 ---
