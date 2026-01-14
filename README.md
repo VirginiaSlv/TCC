@@ -14,7 +14,7 @@ A solução integra **Inteligência Artificial (IA)** e um **Aplicativo Móvel**
 ## 🚀 Funcionalidades Principais
 
 ### ⌚ Pulseira Inteligente (IoT)
-Protótipo baseado em **Arduino** para coleta biométrica em tempo real:
+Protótipo baseado em **Arduino** para coleta em tempo real:
 * **Frequência Cardíaca:** Monitoramento de picos que indicam ansiedade ou estresse.
 * **Acelerômetro:** Identificação de comportamentos motores repetitivos (*stimming*) ou agitação física.
 * **Conectividade:** Transmissão contínua via Bluetooth/Wi-Fi para a API central.
