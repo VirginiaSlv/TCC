@@ -1,68 +1,72 @@
-🎯 Sobre o Projeto
-Este projeto é o resultado de um Trabalho de Conclusão de Curso (TCC) que visa auxiliar a inclusão escolar de alunos com Transtorno do Espectro Autista (TEA). O objetivo principal é desenvolver um ecossistema inteligente capaz de detectar sinais precoces de crises sensoriais ou emocionais através da fusão de dados fisiológicos e comportamentais.
+# 🧩  EduCare: Inteligência Artificial na Inclusão Escolar
 
-A solução integra Inteligência Artificial (IA) e um Aplicativo Móvel para criar uma rede de apoio entre alunos, responsáveis e educadores.
+> **Projeto de Trabalho de Conclusão de Curso (TCC)** > Um ecossistema inteligente voltado à detecção precoce de crises sensoriais e emocionais em alunos autistas, IA e monitoramento colaborativo.
 
-🚀 Funcionalidades Principais
-1.Pulseira: Protótipo baseado em Arduino para coleta em tempo real de:
+---
 
-Frequência Cardíaca: Para detectar estados de ansiedade ou estresse.
+## 🎯 Sobre o Projeto
+Este projeto visa auxiliar a inclusão escolar de alunos com **Transtorno do Espectro Autista (TEA)**. O objetivo principal é desenvolver um ecossistema capaz de detectar sinais precoces de crises através da fusão de dados fisiológicos e comportamentais.
 
-Acelerometro: Para identificar comportamentos motores repetitivos ou agitação física.
+A solução integra **Inteligência Artificial (IA)** e um **Aplicativo Móvel** para criar uma rede de apoio em tempo real entre alunos, responsáveis e educadores.
 
-Transmissão contínua: Envio de dados via Bluetooth/Wi-Fi para a API central.
+---
 
-2. Coleta de Dados Multidimensionais (Questionários)
-O sistema coleta dados subjetivos que fornecem contexto à IA:
+## 🚀 Funcionalidades Principais
 
-Módulo Responsável: Cadastro do perfil sensorial, histórico de informações e rotina do aluno.
+### ⌚ Pulseira Inteligente (IoT)
+Protótipo baseado em **Arduino** para coleta biométrica em tempo real:
+* **Frequência Cardíaca:** Monitoramento de picos que indicam ansiedade ou estresse.
+* **Acelerômetro:** Identificação de comportamentos motores repetitivos (*stimming*) ou agitação física.
+* **Conectividade:** Transmissão contínua via Bluetooth/Wi-Fi para a API central.
 
-Módulo Aluno: * Diário de Bordo: Registro simples de humor e eventos do dia.
+### 📊 Coleta de Dados Multidimensionais
+Questionários estratégicos que fornecem contexto semântico à IA:
+* **Módulo Responsável:** Cadastro do perfil sensorial, histórico e rotina.
+* **Módulo Aluno:** * *Diário de Bordo:* Registro simplificado de humor e eventos.
+    * *Estado Emocional:* Botões de acesso rápido para expressar dor, medo ou pedido de ajuda.
+* **Módulo Educador:** * *Acompanhamento Diário:* Registro de interações e episódios de desconforto.
+    * *Relatório Semanal:* Evolução pedagógica e adaptações de rotina.
 
-Estado Emocional Instantâneo: Botões rápidos para expressar dor, medo ou necessidade de ajuda.
+### 🧠 Inteligência Artificial (Core)
+* **Análise Preditiva:** Processamento em Python utilizando modelos como *Random Forest* ou *XGBoost*.
+* **Fusão de Dados:** O modelo cruza biometria (batimentos) com gatilhos externos (sensibilidades relatadas) e o estado emocional autodeclarado.
+* **Detecção de Gatilhos:** Identificação de padrões que antecedem crises (ex: correlação entre ruídos e taquicardia).
 
-Módulo Educador: * Acompanhamento Diário: Registro de interações sociais e episódios de desconforto em sala.
+### 📱 Aplicativo Mobile (Flutter)
+* **Interface Adaptada:** Design limpo com pictogramas e cores suaves, focado na acessibilidade cognitiva.
+* **Alertas Predict:** Notificações instantâneas para professores sobre riscos iminentes de crise.
+* **Dashboards:** Visualização clara da evolução do bem-estar do aluno.
 
-Relatório Semanal: Avaliação de evolução pedagógica e adaptações de rotina.
+---
 
-3. Inteligência Artificial (Core)
-Análise Preditiva: Processamento em Python utilizando modelos de Machine Learning (Random Forest/XGBoost).
+## 🏗️ Arquitetura do Sistema
 
-Fusão de Dados: A IA cruza os picos de frequência cardíaca com as sensibilidades relatadas pelos pais e o humor descrito pelo aluno.
+| Camada | Tecnologia | Responsabilidade |
+| :--- | :--- | :--- |
+| **Hardware** | Arduino C++ | Captura de sinais brutos dos sensores |
+| **Mobile** | Flutter (Dart) | Interface do usuário e entrada de dados |
+| **Backend** | Java (Spring Boot) | Orquestração, persistência e regras de negócio |
+| **IA Engine** | Python (Flask/FastAPI) | Processamento de Machine Learning e predições |
 
-Detecção de Gatilhos: Identificação de padrões que antecedem uma crise (ex: sons altos + aumento de batimentos).
+---
 
-4. Aplicativo Mobile (Flutter)
-Interface Adaptada: Layout limpo e intuitivo, pensado para a comunicação com alunos autistas (uso de pictogramas e cores suaves).
+## 🛠️ Tecnologias Utilizadas
 
-Alertas em Tempo Real: Notificações para o professor quando a IA detecta uma probabilidade alta de crise iminente.
+* **Linguagens:** `Java`, `Python`, `Dart`, `C++`
+* **IA:** `Pandas`, `Scikit-learn`, `XGBoost`
+* **Sensores:** `Pulse Sensor`, `MPU6050 (Acelerômetro)`
+* **Banco de Dados:** `PostgreSQL` / `MySQL`
 
-Dashboard de Evolução: Gráficos para visualização do bem-estar do aluno ao longo do tempo.
+---
 
-🏗️ Arquitetura do Sistema
-Hardware (Arduino): Captura os sinais brutos.
+## 📈 Impacto Esperado
+Proporcionar aos educadores uma ferramenta de **intervenção precoce**, permitindo que o aluno receba suporte antes que o desconforto se torne uma crise severa, promovendo um ambiente escolar mais seguro, acolhedor e neurodivergente.
 
-Mobile (Flutter): Interface de entrada para os questionários e exibição de alertas.
+---
 
-Backend (Spring Boot): Orquestrador que armazena os dados no banco de dados e comunica-se com o motor de IA.
+## 👥 Autores
+* **João Pedro Cassiano de Brito**
+* **Virginia da Silva**
+* **Yasmin Tavares Noberto**
 
-IA (Python/Flask): Recebe os dados, realiza a predição e retorna o nível de risco.
-
-🛠️ Tecnologias Utilizadas
-Mobile: Flutter (Dart)
-
-Backend: Java (Spring Boot)
-
-Inteligência Artificial: Python (Pandas, Scikit-learn, Flask)
-
-Hardware: Arduino C++, Sensor de Batimentos (Pulse Sensor), Acelerômetro (MPU6050)
-
-Banco de Dados: PostgreSQL / MySQL
-
-📈 Impacto Esperado
-Proporcionar aos educadores uma ferramenta de intervenção precoce, permitindo que o aluno receba suporte antes que o desconforto se torne uma crise severa, promovendo um ambiente escolar mais seguro e acolhedor.
-
-👥 Autores
-João Pedro Cassiano de Brito
-Virginia da Silva
-Yasmin Tavares Noberto
+---
